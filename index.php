@@ -4,8 +4,10 @@ spl_autoload_register(function($className){
 	include ($className . ".php");
 });
 
-$gerente = new Gerente(); 
+$funcionario = new Gerente(); 
 
 echo "<pre>";
-var_dump($gerente);
+var_dump($funcionario);
 echo "</pre>";
+
+$funcionario->Cadastro("ADM", "ADM");
