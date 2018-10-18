@@ -1,2 +1,2 @@
 # php-oo
-PHP - OO
+PHP - ORIENTADO A OBJETOS
